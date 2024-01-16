@@ -1,0 +1,31 @@
+.term{
+    width: 85%;
+    margin-left: 15%;
+    padding: 20px 40px;
+}
+.term div{
+    margin-bottom: 30px;
+}
+.t-term h4{
+    margin: 10px 0;
+}
+.t-term{
+    margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .term{
+        width: 100%;
+        margin-left: 0%;
+        padding: 20px 20px;
+    }
+}
+@media screen and (max-width:540px) {
+    .privacy{
+        width: 100%;
+        margin-left: 0%;
+        padding: 20px 20px;
+    }
+}

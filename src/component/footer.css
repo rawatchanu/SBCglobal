@@ -1,0 +1,46 @@
+.footer{
+    width: 82%;
+    margin-left: 18%;
+    padding: 20px 10px 0 10px; 
+}
+.foot{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding: 20px; 
+    margin-top: 20px;
+    background-color: #18abe0;
+    border-radius: 10px;
+    color: white;
+    /* padding: 20px; */
+}
+.foot div p{
+    width: 250px;
+    text-align: center;
+    margin-top: 10px;
+}
+.foot div h4{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.foot ul{
+    padding-left: 0;
+}
+.foot ul li{
+    list-style: none;
+    font-size: 14px;
+    color: white;
+}
+.foot ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+        width: 100%;
+        padding: 20px;
+        margin-left: 0%;
+        flex-direction: column;
+    }
+}    

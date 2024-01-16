@@ -1,0 +1,91 @@
+.navbar{
+    padding: 20px 7px;
+    width: 15%;
+    /* text-align: center; */
+    height: 100vh;
+    /* border: 1px solid; */
+    background-color: #18abe0;
+    box-shadow: 2px 2px 8px 2px #18abe095;
+    color: #ffffff;
+    position: fixed;
+}
+.navbar .logo h1{
+    font-family: 'Kalnia', serif;
+    font-size: 25px;
+    font-weight:600;
+    text-align: center;
+}
+.navbar ul{
+    margin-top: 50px;
+    /* text-align: center; */
+}
+.navbar ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+.navbar ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.m-links{
+    display: none;
+    background-color: #18abe0;
+    height: 180px;
+    width: 100%;
+    position: absolute;
+}
+.m-links ul li{
+    list-style: none;
+}
+.m-links ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+.icon{
+    font-size: 35px;
+    display: none;
+}
+@media screen and (max-width:768px){
+    .navbar{
+        display: flex;
+        padding: 20px 10px;
+        width: 100%;
+        height: 10vh;       
+        position: relative;
+        text-align: left;
+        justify-content: space-between;
+    }
+    .navlinks{
+        display: none;
+    }
+    .icon{
+        display: block;
+    }
+    .m-links{
+        display: block;
+    }
+}
+
+@media screen and (max-width:540px){
+    .navbar{
+        display: flex;
+        padding: 20px 7px;
+        width: 104%;
+        height: 10vh;       
+        position: relative;
+        text-align: left;
+        justify-content: space-between;
+    }
+    .navlinks{
+        display: none;
+    }
+    .icon{
+        display: block;
+    }
+    .m-links{
+        display: block;
+        width: 104%;
+    }
+}
